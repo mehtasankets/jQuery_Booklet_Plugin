@@ -1,0 +1,352 @@
+h3
+{
+    color:blue;
+}
+
+h4
+{
+    color:#395873;
+    font-style:normal;
+}
+body
+{
+    width:1000px;
+    height:600px;
+    font-family:Trebuchet MS;
+}
+.content-div
+{
+    position:absolute; margin-top:30px;
+    width:932px;
+    height:530px;
+    background:#ebeef3;
+    border:1px;
+    border-color:#47acff;
+    border-style:solid;
+   
+}
+.tab-container
+{
+       position:absolute; 
+       width:934px; 
+       height:35px;
+       background:#2d2d2d;
+     
+}
+.tab-container ul
+{
+    list-style:none;
+    list-style-image:none;
+    margin-top:-5px;
+    padding-top:10px;
+    margin-left:-20px;
+ 
+}
+.tabs
+{
+    display:inline;
+    width:150px;
+    padding:5px;
+}
+
+.name
+{
+    color:#47acff;
+    position:absolute;
+    right:100px;
+    margin-top:-5px;
+    font-weight:bold;
+    
+}
+
+.tabactive
+{
+    width:150px;
+    height:30px;
+    background:#47acff;/*url("../images/active_tab.png") no-repeat;*/
+    margin-top:3px;
+    color:White;
+    font-family:Trebuchet MS;
+    padding:5px;
+    font-weight:bold;
+    cursor:pointer;
+   
+}
+.tabinactive
+{
+    width:150px;
+    height:20px;
+    background:#2d2d2d;/*url("../images/inactive_tab.png") no-repeat;*/
+    margin-top:3px;
+    color:#47acff;
+    font-family:Trebuchet MS;
+    padding:5px;
+    font-weight:bold;
+    cursor:pointer;
+}
+.tabinactive:hover
+{
+    width:150px;
+    height:20px;
+    background:#589cdb;/*url("../images/inactive_tab.png") no-repeat;*/
+    margin-top:3px;
+    color:white;
+    font-family:Trebuchet MS;
+    padding:7px;
+    font-weight:bold;
+    cursor:pointer;
+}
+.bookdiv
+{
+   position:absolute; 
+   margin-top:10px; 
+   margin-left:100px;
+   width:1000px; 
+   height:600px; 
+   border:0px; 
+   border-style:solid; 
+   border-color:#47acff; 
+   
+}
+.caroseldiv
+{
+   position:absolute;
+   background:white; 
+   margin-top:370px; 
+   margin-left:20px;
+   width:880px !important; 
+   height:150px; 
+   border:1px; 
+   border-style:solid; 
+   border-color:#47acff;
+   
+}
+.caroseldiv ul
+{
+    list-style:none;
+    top:15px;
+  
+}
+.caroseldiv ul li
+{
+    margin-left:23px;
+    margin-top:-10px;
+    width:150px;
+    
+  
+}
+.prev
+{
+    position:absolute;
+    margin-left:5px;
+    margin-top:-88px;
+    cursor:pointer;
+   
+}
+.next
+{
+    position:absolute;
+    margin-left:885px;
+    margin-top:-88px;
+    cursor:pointer;
+    
+}
+
+.smallbook
+{
+  width:150px;
+  height:133px;
+  padding:5px;
+  cursor:pointer;
+}
+.smallbooktitle
+{
+    color:#395873; 
+    margin-top:-12px; 
+    width:150px; 
+    font-family:Trebuchet MS; 
+    font-size:13px; 
+    word-wrap:break-word; 
+    height:35px; 
+    text-align:left;
+}
+.content-left
+{
+    margin-left:30px; margin-top:0px; height:560px; width:410px;overflow:hidden;
+}
+.content-right
+{
+     margin-left:60px; margin-top:0px; height:560px; width:410px;overflow:hidden;
+}
+
+.book-shelf
+{
+   
+    width:210px;
+    height:200px;
+    border:0px;
+    border-color:Black;
+    border-style:solid;
+    padding:10px;
+    margin-top:10px;
+
+}
+
+.scroll-div ul
+{
+   list-style: none; 
+   height:260px;
+  /* margin-top:20px;*/
+}
+.scroll-div
+{
+  height:260px;  
+}
+.list
+{
+    display:inline-block;
+    margin-left:-14px;
+    
+    
+}
+.bokimg-instructor
+{
+    position: relative; height: 90px; width: 65px; margin-top: 10px
+}
+.book-descr
+{
+   position: relative; 
+   margin-left: 100px; 
+   top: -110px; 
+   height: 180px;
+   width: 100px;
+
+   word-wrap: break-word;
+   font-family:Trebuchet MS;
+   font-size:small;
+   color:#47acff;
+   font-style:italic;
+}
+.star
+{
+     position: relative; top: -160px;
+}
+.btn-addtoshelf
+{
+   position: relative; top: -140px; border:0px; background:#47acff; color:White; cursor:pointer;
+}
+
+.pad
+{
+    background:url("../images/howiworkbg.png") no-repeat;
+    width:534px;
+    height:500px;
+    margin-left:160px;
+    margin-top:10px;
+    position:absolute;
+}
+
+
+.hr-line
+{
+   position:relative; width:800px; height:2px; background:#783836; margin-left:50px;
+}
+#rateit
+{
+    position:absolute;
+    right:90px;
+    top:108px;
+    z-index:100;
+    background:url("../images/tooltip.png") no-repeat;
+    width:140px !important;
+    height:24px;
+    
+}
+.click-rate
+{
+   position:absolute;
+   height:50px; 
+   width:50px;
+   margin-left:810px; 
+   margin-top:100px;
+   background:url("../images/rate.png") no-repeat;
+}
+
+       .pg-content
+        {
+            text-align: justify;
+            font-size: 10px;
+            font-family: Trebuchet MS;
+        }
+        .pg-content-Heading
+        {
+            text-align: left;
+            font-size: 12px;
+            font-family: Trebuchet MS;
+            font-weight:bold;
+        }
+        .booklet
+        {
+            margin-top: 15px !important;
+            display: none;
+        }
+        
+        .booklet .b-arrow DIV
+        {
+            top: 50%;
+            height: 35px;
+            left: 25px;
+            width: 35px;
+        }
+        .booklet .b-arrow-next
+        {
+            right: -70px;
+        }
+        .booklet .b-wrap-left
+        {
+            background: url("../images/leftpage.png") no-repeat;
+        }
+        .booklet .b-wrap-right
+        {
+            background: url("../images/rightpage.png") no-repeat;
+        }
+        
+        #frontcover
+        {
+            background-image: url(../images/book_cover.jpg) !important;
+            background-repeat: no-repeat;
+        }
+        
+        #endcover
+        {
+            background-image: url(../images/back_cover.jpg) !important;
+            background-repeat: no-repeat;
+        }
+        
+        .booklet .b-counter
+        {
+            bottom: 37px;
+            background: none;
+            color:#395873;
+            font-family:Trebuchet MS;
+            font-weight:bolder;
+            font-size:12px;
+        }
+        
+        .booklet .b-wrap-left .b-counter
+        {
+            left: 120px;
+        }
+        .booklet .b-wrap-right .b-counter
+        {
+            right: 120px;
+        }
+        
+        
+        .booklet .b-page-cover
+        {
+            margin-top: -5px;
+            margin-left: -5px;
+            width: 110%;
+            height: 110%;
+        }
