@@ -1,0 +1,11 @@
+There are 2 applications under jQuery:
+1. Basic
+2. Advanced
+
+Both applications are built to demonstrate jQuery plugin named booklet(jquery.booklet.1.4.2)
+
+1. Basic:
+	This is a basic application which shows how to add booklet jquery plugin to the html page and shows basic look and feel of the plugin.
+
+2. Advanced:
+	This is a little advanced version of the basic application. This application creates a simple book on photography. This application uses multiple options of the given plugin to demonstrate detailed use of the plugin.
